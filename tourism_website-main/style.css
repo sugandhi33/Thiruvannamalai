@@ -1,0 +1,103 @@
+.title{
+    font-family: 'Rochester', cursive;
+    font-size:50px;
+    color: #31a499;
+}
+body{
+    font-family: 'Anuphan', sans-serif;
+    font-size: 20px;
+}
+article{
+    margin: 50px 50px;0
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.bar a{
+    text-decoration: none;
+    color: #E468B4;
+    margin-left: 60px;
+}
+.bar{
+    margin-bottom: 20px;
+    position: sticky;
+    top: 0px;
+    background-color: white;
+    padding: 20px;
+}
+.bar a:hover{
+    font-weight: 900;
+    border-bottom-style: solid;
+}
+h2{
+    font-size: 40px; 
+    color: #e468b4;
+}
+.subheading{
+    font-size: 45px; 
+    color: #e468b4;
+    margin-left: 10px;
+}
+.quote{
+    font-size: 30px;
+    padding: 20px;
+}
+@font-face {
+    font-family: firstletter;
+    src: url(Precious.ttf);
+    font-weight: 600;
+}
+.first{
+    font-family: firstletter;
+    color: #e468b4;
+}
+.backtop{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+main{
+    text-align: center;
+}
+aside{
+    width: 40%;
+    height: 400px;
+}
+main section{
+    margin-left: 20px;
+}
+.contact{
+    display: flex;
+    margin-top: 50px;
+}
+.form-table{
+    margin-left: 50px;
+    border-left: 1px solid gray;
+}
+.form-table td{
+    text-align: left;
+    padding: 10px;
+}
+.form-table .button{
+    padding: 10px 20px;
+}
+@media all and (max-width:900px){
+    table{
+        width:100%;
+    }
+
+    td{
+        display:block;
+        width:100%;
+    }
+
+    tr{
+        display:block;
+        margin-bottom:30px;
+    }
+
+    tr tr{
+        margin-bottom:0;
+    }
+}
